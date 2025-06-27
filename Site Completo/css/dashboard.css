@@ -113,9 +113,12 @@ height: auto;
     text-align: center;
 }
 
+.numeros {
+    text-align: center;
+}
+
 .descricao {
     font-size: 3rem;
-    text-align: center;
 }
 
 #dog, #cat {
@@ -124,9 +127,10 @@ height: auto;
 }
 
 #tamp {
-    width: 20%;
+    width: 10%;
     height: auto;
 }
+
 
 
 /* RODAPÉ  */
