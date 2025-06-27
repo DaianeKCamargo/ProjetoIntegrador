@@ -5,10 +5,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Ser Voluntário! </title>
+        <title> Ser Parceiro! </title>
         <link rel="shortcut icon" type="image/x-icon" href="img/Patinha Verde.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/voluntarioat.css">
+        <link rel="stylesheet" href="css/parceiroat.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,15 +39,15 @@
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="oprojetoat.html"> Sobre O Projeto </a></li>
                                         <li><a class="dropdown-item" href="namidiaat.html"> TamPets Na Mídia </a></li>
-                                        <li><a class="dropdown-item" href="#"> Galeria De Fotos </a></li>
+                                        <li><a class="dropdown-item" href="galeria.html"> Galeria De Fotos </a></li>
                                     </ul>
                                 </li>
                                 <p class="gap">•</p>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dados/Relatórios </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#"> Dashboard </a></li>
-                                        <li><a class="dropdown-item" href="#"> Saiba Mais Sobre CO2 </a></li>
+                                        <li><a class="dropdown-item" href="dashboard.html"> Dashboard </a></li>
+                                        <li><a class="dropdown-item" href="co2.html"> Saiba Mais Sobre CO2 </a></li>
                                     </ul>
                                 </li>
                                 <p class="gap">•</p>
@@ -60,7 +60,7 @@
                                 </li>
                                 <p class="gap">•</p>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Parceiros</a>
+                                    <a class="nav-link" href="parceiros.html">Parceiros</a>
                                 </li>
                                 <p class="gap">•</p>
                                 <li class="nav-item">
@@ -75,27 +75,22 @@
         <section class="form-voluntario">
                 <div class="row centralizar" id="div-tipo">
                     <div class="col-2 ">
-                        <a href="" >
+                        <a href="formvolutarioat.html" >
                             <li class="botao-troca centralizar vol">SER VOLUNTÁRIO</li>
                         </a>
                     </div>
-                    <div class="col-2 ">
-                        <a href="formpontocoleta.html" >
-                            <li class="botao-troca centralizar">SER PONTO DE COLETA</li>
-                        </a>
-                     </div>
+                    <div class="col-2 "><a href="formpontocoleta.html" ><li class="botao-troca centralizar">
+                        SER PONTO DE COLETA</li>
+                    </a></div>
                     
-                    <div class="col-2 ">
-                        <a href="parceiroat.html" >
-                            <li class="botao-troca centralizar">TORNAR PARCEIRO</li>
-                        </a>
+                    <div class="col-2 "><a href="" ><li class="botao-troca centralizar vol"> TORNAR PARCEIRO </li>
+                    </a></div>
                     </div>
                 </div>
                 
                 <div> 
-                    <h1 class="titulos-pagina">VOLUNTÁRIO</h1>
-                    <p class="descricao"> Para mais dúvidas sobre, entre em contato conosco pelo nosso forms, e em breve te retornaremos! </p></p>
-                    
+                    <h1 class="titulos-pagina">PARCEIRO</h1>
+
                     <h4 class="centralizar">Ficou interessado ? Preencha o formulário abaixo e aguarde que entraremos em contato.</h4>
                 </div>
 
@@ -105,14 +100,19 @@
                         <form action="" >
                             <h3 class="titulos-pagina">FORMULÁRIO</h3>
                             <div class="inputs">   
-                                <p class="margin-p"><label for="" class="form-label">Nome:</label>
-                                <input type="text" placeholder="  Estabelecimento/Pessoa" class="input-size"></p>
-                                <p class="margin-p"><label for="whats" class="form-label">WhatsApp:</label>
-                                <input type="text" placeholder="  (12)93456-7890" class="input-size" id="whats"></p>
-                                <p class="margin-p"><label for="" class="form-label">Endereço:</label>
-                                <input type="text" placeholder="  Cidade - Bairro - Cep" class="input-size"></p>
-                                <p class="centralizar"><button type="submit" id="Enviar">Enviar</button></p>
-                            </div>    
+                                <p class="descricao-input">Para qual tipo de serviço irá se candidatar?</p>
+                                 <p class="margin-radio"><input type="radio" name="Parceiro" id="Consultoria"><label for="Consultoria">Preciso de consultoria</label>
+                                    <input type="radio" name="Parceiro" id="Apoiador"><label for="Apoiador">Quero ser um apoiador</label></p>
+                                <p class="margin-radio"><input type="radio" name="Parceiro" id="Comprador"><label for="Comprador">Quero ser um comprador</label>
+                                <input type="radio" name="Parceiro" id="Palestra"><label for="Palestra">Quero palestra ou apresentação</label></p>
+                            </div>
+                            <p class="margin-p"><label for="" class="form-label">Nome:</label>
+                            <input type="text" placeholder="  Estabelecimento/Pessoa" class="input-size"></p>
+                            <p class="margin-p"><label for="whats" class="form-label">WhatsApp:</label>
+                            <input type="text" placeholder="  (12)93456-7890" class="input-size" id="whats"></p>
+                            <p class="margin-p"><label for="" class="form-label">Endereço:</label>
+                            <input type="text" placeholder="  Cidade - Bairro - Cep" class="input-size"></p>
+                            <p class="centralizar"><button type="submit" id="Enviar">Enviar</button></p>    
                         </form>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
             </div>
         </footer>
     
-    <script src="script/voluntarioat.js" defer></script>
+    <script src="script/sejaparceitoat.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     </body>
 
