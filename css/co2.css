@@ -84,13 +84,13 @@ margin-bottom: 5%;
 
 /* CONTEUDO */
 .apresentacao-co2 {
-    text-align: center;
-    margin-bottom: 5%;
+text-align: center;
+margin-bottom: 5%;
 }
 
 .consequencia-tamp {
-    text-align: center;
-    margin-bottom: 5%;
+text-align: center;
+margin-bottom: 5%;
 }
 
 
@@ -412,7 +412,7 @@ margin-right: 2%;
     }
 
     .menu li:hover {
-    background-color: #E15485;
+    background-color: #e1a611;
     }
 
     span#burguer {
@@ -423,7 +423,7 @@ margin-right: 2%;
     }
 
     span#burguer:hover {
-    color: #E15485;
+    color: #e1a611;
     }
 
     .gap {
@@ -439,6 +439,12 @@ margin-right: 2%;
     a {
     text-decoration: none;
     color: black;
+    }
+
+    /* CONTEUDO */
+    iframe {
+        width: 200px;
+        height: 200px;
     }
 
     /* RODAPÉ  */
@@ -480,7 +486,7 @@ margin-right: 2%;
     }
 
     button {
-    background-color: #E15485;
+    background-color: #e1a611;
     color: white;
     border: none;
     border-radius: 3px;
@@ -490,7 +496,7 @@ margin-right: 2%;
     }
 
     button:hover {
-    background-color: #d13f6c;
+    background-color: #e1a611;
     }
 
     h3 {

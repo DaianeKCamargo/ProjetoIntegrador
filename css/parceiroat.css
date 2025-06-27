@@ -39,7 +39,7 @@ width: 100%;
 
 .menu {
 gap: 2%;
-font-size: 1rem;
+font-size: 1vw;
 font-weight: bold;
 color: #000;
 margin-top: 1.5%;
@@ -91,7 +91,7 @@ text-shadow: green 2px 2px;
 margin-bottom: 2%;
 margin-top: 5%;
 color: #000;
-font-size: 3rem;
+font-size: 3vw;
 }
 
 .centralizar{
@@ -101,9 +101,9 @@ padding: 5px 10px;
 }
 
 .descricao {
-    width: 100%;
-    font-size: 2rem;
-    text-align: center;
+width: 100%;
+font-size: 2vw;
+text-align: center;
 }
 
 #formu{
@@ -122,13 +122,13 @@ margin-left: 5%;
 }
 
 .inputs {
-    margin-left: 20%;
+margin-left: 20%;
 }
 
 .descricao-input{
-    margin-left: 2%;
-    font-size: 1.2rem;
-    font-weight: bolder;
+margin-left: 2%;
+font-size: 1.2vw;
+font-weight: bolder;
 }
 
 .input-size{
