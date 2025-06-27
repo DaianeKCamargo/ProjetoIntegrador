@@ -1,4 +1,4 @@
-/* GERAL */
+GERAL
 * {
 margin: 0;
 padding: 0;
@@ -95,43 +95,72 @@ height: auto;
 }
 
 .selecao-mes {
-    padding: 10px 20px;
+padding: 10px 20px;
 }
 
 .nome-selecione {
-    padding: 7px 10px;
+padding: 7px 10px;
+text-align: right;
+font-size: 1.5vw;
+}
+
+.descricao-qnt {
+    margin-right: 6%;
 }
 
 .qnt-animais, .qnt-tampinhas {
-    font-size: 1.5rem;
-    text-align: center;
+font-size: 1.5vw;
+text-align: center;
 }
 
 .cachorro, .gato, .tampinhas {
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
+font-size: 1vw;
+font-weight: bold;
+text-align: center;
 }
 
 .numeros {
-    text-align: center;
+text-align: center;
+justify-content: center;
+width: 100%;
+padding: 15px 15px;
 }
 
 .descricao {
-    font-size: 3rem;
+font-size: 3vw;
 }
 
 #dog, #cat {
-    width: 30%;
-    height: auto;
+width: 50%;
+height: auto;
+margin-top: 2%;
+padding: 0;
 }
 
 #tamp {
-    width: 10%;
-    height: auto;
+width: 20%;
+height: auto;
 }
 
+.num-dog, .num-cat {
+border: 1px solid black;
+box-shadow: #333 3px 3px;
+border-radius: 10px;
+padding: 0;
+margin: 2%;
+background-color: rgba(226, 198, 188, 0.96);
+width: 10%;
+}
 
+.num-tamp {
+border: 1px solid black;
+box-shadow: #333 3px 3px;
+border-radius: 10px;
+padding: 0;
+margin-left: 15%;
+background-color: rgba(226, 198, 188, 0.96);
+width: 40%;
+}
 
 /* RODAPÉ  */
 .footer {
@@ -302,6 +331,7 @@ margin-right: 2%;
     color: black;
     }
 
+
     /* RODAPÉ  */
     .footer { 
     background-image: url(../img/fundo-tamp-coloridas.png);
@@ -344,7 +374,7 @@ margin-right: 2%;
     }
 
     button {
-    background-color: #E15485;
+    background-color: #e1a611;
     color: white;
     border: none;
     border-radius: 3px;
@@ -354,7 +384,7 @@ margin-right: 2%;
     }
 
     button:hover {
-    background-color: #d13f6c;
+    background-color: #e1a611;
     }
 
     .redes-sociais-footer {
@@ -477,6 +507,43 @@ margin-right: 2%;
     a {
     text-decoration: none;
     color: black;
+    }
+
+    /* CONTEUDO  */
+    .selecao-mes {
+        white-space: nowrap;
+    }
+
+    .form-select {
+        font-size: 1.5vw;
+    }
+
+    .descricao-qnt {
+    margin-right: 0;
+    margin-left: 2%;
+    }
+    
+    .descricao {
+    font-size: 3vw;
+    font-weight: bold;
+    }
+    
+    #dog, #cat {
+    width: 50%;
+    height: auto;
+    }
+
+    #tamp {
+    width: 30%;
+    height: auto;
+    }
+
+    .num-dog, .num-cat {
+    width: 20%;
+    }
+
+    .num-tamp {
+    width: 30%;
     }
 
     /* RODAPÉ  */
