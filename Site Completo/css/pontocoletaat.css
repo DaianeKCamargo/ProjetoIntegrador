@@ -1,0 +1,700 @@
+/* GERAL */
+* {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+overflow-x: hidden;
+width: 100%;
+}
+
+body::-webkit-scrollbar {
+display: none;
+}
+
+body {
+font-family: Averia Libre, sans-serif;
+font-style: normal;
+color: #333;
+}
+
+/* MENU DE NAVEGAÇÃO */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 1%;
+margin-right: 2%;
+margin-bottom: 5%;
+white-space: nowrap;
+flex-direction: row;
+width: 100%;
+box-shadow: 5px 0px 1px 0px black;
+}
+
+.logo img {
+width: 100%;
+}
+
+.menu {
+gap: 2%;
+font-size: 1rem;
+font-weight: bold;
+color: #000;
+margin-top: 1.5%;
+width: 80%;
+}
+
+.menu li {
+margin-right: 2%;
+}
+
+.menu li:hover {
+color: orange;
+}
+
+.gap {
+margin-right: 1%;
+}
+
+ul.navbar-nav {
+align-items: baseline;
+padding:0;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+span#burguer {
+display: none;
+}
+
+/* CONTEUDO */
+
+/*começo*/
+.titulo h1{                             
+display: flex;
+justify-content: center;
+text-shadow: #de844c 2px 2px;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.titulo h5 {
+display: flex;
+justify-content: center;
+margin-bottom: 2%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+/* BARRA DE PESQUISA */
+div.header-search {
+display: flex;
+width: 100%;
+margin-left: 25%;
+}
+
+.header-search input {
+background-color: white;
+border-radius: 2px;
+padding: 0;
+border: solid 1px #de844caa;
+box-shadow: 0px 0px 2px 0 #333;
+outline: none;
+width: 50%;
+font-size: larger;
+}
+
+.header-search input:hover {
+box-shadow: orange 2px;
+}
+
+input:focus {
+outline: none;
+}
+
+.header-search button {
+padding: 10px 15px;
+background-color: orange;
+color: #fff;
+border: none;
+box-shadow: 0px 0px 2px 0 #333;
+border-radius: 0px 10px 10px 0px; /* Arredondar o canto direito do botão */
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+/*localização*/
+.endereco {
+width: 100%;
+height: auto;
+border: #333;
+border-radius: 5px;
+box-shadow: #333 0px 0px 10px;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.ponto {
+width: 60%;
+height: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 20%;
+margin-right: 5%;
+}
+
+.paragrafo p {
+font-weight: bolder;
+font-size: 1.2rem;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.local {
+width: 80%;
+height: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+/* RODAPÉ  */
+.footer {
+background-image: url(../img/fundo-tamp-coloridas.png);
+background-size: cover;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 20px 0;
+position: relative;
+bottom: 0;
+width: 100%;
+box-shadow: #333 0px 0px 10px;
+}
+
+.container-footer {
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#pegadaspet {
+width: 200%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.logo-footer {
+flex: 1;
+}
+
+.contato-footer {
+flex: 1;
+}
+
+button {
+background-color: orange;
+color: white;
+border: none;
+border-radius: 3px;
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+button:hover {
+background-color: orange;
+}
+
+.redes-sociais-footer {
+flex: 1;
+font-size: 1.2rem;
+font-weight: bold;
+margin-right: 2%;
+
+}
+
+.social-icons  {
+display: flex;
+align-items: center;
+margin-left: 15%;
+}
+
+#facebook, #instagram, .redes-sociais, .symbol {
+align-items: center;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { /* TABLETE */ 
+  /* GERAL  */
+  * { 
+  margin: 0;
+  padding: 0;
+  }
+
+  html, body {
+  overflow-x: hidden;
+  width: 100%;
+  }
+
+  body::-webkit-scrollbar {
+  display: none;
+  }
+
+  body {
+  font-family: Averia Libre, sans-serif;
+  font-style: normal;
+  color: #333;
+  } 
+
+  /* MENU DE NAVEGAÇÃO  */
+  header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 2%;
+  white-space: nowrap;
+  flex-direction: column;
+  }
+
+  .logo img {
+  margin-left: 5%;
+  display:flex;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .menu {
+  display: none;
+  gap: 2%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  box-shadow: #333 0px 0px 5px;
+  border-radius: 2px; 
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  left: 15%;
+  }
+
+  .menu li {
+  align-items: center;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  }
+
+  .menu li:hover {
+  color: orange;
+  }
+
+  span#burguer {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: #000;
+  justify-content: center;
+  }
+
+  span#burguer:hover {
+  color: orange;
+  }
+
+  .gap {
+  display: none;
+  margin-right: 1%;
+  }
+
+  .navbar-nav {
+  padding: 0;
+  align-items: center;
+  }
+
+  a {
+  text-decoration: none;
+  color: black;
+  }
+
+  /* RODAPÉ  */
+  .footer { 
+  background-image: url(../img/fundo-tamp-coloridas.png);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: #333 0px 0px 10px;
+  }
+
+  .container-footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+  #pegadaspet {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  }
+
+  .logo-footer img {
+  width: 80%;
+  }
+
+  .contato-footer {
+  flex: 1;
+  padding: 10px 10px;
+  }
+
+  .descricao-seja-parceiro {
+  font-size: 0.9rem;
+  }
+
+  button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  }
+
+  button:hover {
+  background-color: orange;
+  }
+
+  .redes-sociais-footer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 2%;
+  }
+
+  .descricao-redes-sociais {
+  white-space: nowrap; 
+  font-weight: bold;
+  }
+
+  div.social-icons  {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  }
+
+  .redes-sociais {
+  display: none;
+  }
+
+  #facebook, #instagram, .redes-sociais, .symbol {
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+    
+}  
+
+@media (max-width: 767px) { /* MOBILE */
+  /* GERAL */
+  * {
+  margin: 0;
+  padding: 0;
+  }
+
+  html, body {
+  overflow-x: hidden;
+  width: 100%;
+  }
+
+  body::-webkit-scrollbar {
+  display: none;
+  }
+
+  body {
+  font-family: Averia Libre, sans-serif;
+  font-style: normal;
+  color: #333;
+  }
+
+  /* MENU DE NAVEGAÇÃO */
+  header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 2%;
+  flex-direction: column;
+  }
+
+  .logo img {
+  margin-left: 5%;
+  display: flex;
+  width: 100%;
+  }
+
+  .menu {
+  display: none;
+  gap: 2%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  margin-top: 1.5%;
+  box-shadow: #333 0px 0px 5px;
+  border-radius: 2px;
+  padding: 10px;
+  position: absolute;
+  transition: all 0.3s ease;
+  z-index: 1000; 
+  background-color: white;
+  right: 2%;
+  }
+
+  .menu li {
+  margin-right: 2%;
+  }
+
+  .menu li:hover {
+  background-color: orange;
+  }
+
+  span#burguer {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  color: #000;
+  }
+
+  span#burguer:hover {
+  color: orange;
+  }
+
+  .gap {
+  display: none;
+  margin-right: 1%;
+  }
+
+  .navbar-nav {
+  padding: 0;
+  align-items: center;
+  }
+
+  a {
+  text-decoration: none;
+  color: black;
+  }
+
+  /* CONTEUDO */
+  .titulo h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .titulo h5 {
+    font-size: 0.9rem;
+  }
+
+  /* BARRA DE PESQUISA */
+  div.header-search {
+  display: flex;
+  width: 80%;
+  margin-left: 15%;
+  }
+
+  .header-search input {
+  background-color: white;
+  border-radius: 2px;
+  padding: 0;
+  border: solid 1px #de844caa;
+  box-shadow: 0px 0px 2px 0 #333;
+  outline: none;
+  width: 70%;
+  font-size: small;
+  }
+
+  .header-search input:hover {
+  box-shadow: orange 2px;
+  }
+
+  input:focus {
+  outline: none;
+  }
+
+  .header-search button {
+  padding: 5px 10px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 0px 2px 0 #333;
+  border-radius: 0px 10px 10px 0px; /* Arredondar o canto direito do botão */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  }
+
+  /*localização*/
+.endereco {
+width: 100%;
+height: auto;
+border: #333;
+border-radius: 5px;
+box-shadow: #333 0px 0px 10px;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+flex-direction: column;
+}
+
+.ponto {
+width: 60%;
+height: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 20%;
+margin-right: 5%;
+}
+
+.paragrafo p {
+font-weight: bolder;
+font-size: 0.8rem;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+white-space: nowrap;
+}
+
+.local {
+width: 80%;
+height: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+  /* RODAPÉ  */
+  .footer {
+  background-image: url(../img/fundo-tamp-coloridas.png);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: #333 0px 0px 10px;
+  }
+
+  .container-footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+  #pegadaspet {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  }
+
+  .logo-footer img {
+  width: 80%;
+  }
+
+  .contato-footer {
+  font-size: 0.5rem;
+  text-align: center;
+  padding: 10px 10px;
+  }
+
+  button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  }
+
+  button:hover {
+  background-color: orange;
+  }
+
+  h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  }
+
+  .descricao-seja-parceiro {
+  display: none;
+  }
+
+  .redes-sociais-footer {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  }
+
+  .redes-sociais {
+  display: none;
+  }
+
+  #facebook {
+  margin-right: 10px;
+  }
+
+  .symbol {
+  display: none;
+  }
+
+  .descricao-redes-sociais {
+  display: none;
+  }
+
+  .form {
+  padding: 5px 10px;
+  font-size: small;
+  } 
+
+}

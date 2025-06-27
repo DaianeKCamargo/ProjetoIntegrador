@@ -1,0 +1,747 @@
+/* GERAL */
+* {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+overflow-x: hidden;
+width: 100%;
+}
+
+body::-webkit-scrollbar {
+display: none;
+}
+
+body {
+font-family: Averia Libre, sans-serif;
+font-style: normal;
+color: #333;
+}
+
+/* MENU DE NAVEGAÇÃO */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 1%;
+margin-right: 2%;
+margin-bottom: 5%;
+white-space: nowrap;
+flex-direction: row;
+width: 100%;
+box-shadow: 5px 0px 1px 0px black;
+}
+
+.logo img {
+width: 100%;
+}
+
+.menu {
+gap: 2%;
+font-size: 1rem;
+font-weight: bold;
+color: #000;
+margin-top: 1.5%;
+width: 80%;
+}
+
+.menu li {
+margin-right: 2%;
+}
+
+.menu li:hover {
+color: #f55350;
+}
+
+.gap {
+margin-right: 1%;
+}
+
+ul.navbar-nav {
+align-items: baseline;
+padding:0;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+span#burguer {
+display: none;
+}
+
+/* CONTEUDO */
+section.titulo1 {
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/fundo\ tampinhas\ vermelhas.jpg);
+  background-size: cover;
+  color: white;
+  padding: 15px 10px;
+}
+
+#check{
+  width: 6%;
+  margin-right: 2%;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.carousel-track {
+  display: flex;
+  animation: slide 15s infinite ease-in-out;
+}
+
+.slide {
+  display: flex;
+  min-width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: #333 0 0 2px 0;
+}
+
+.caption {
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+@keyframes slide {
+  0%, 20%   { transform: translateX(0); }
+  33.33%, 53.33% { transform: translateX(-100%); }
+  66.66%, 86.66% { transform: translateX(-200%); }
+  100%     { transform: translateX(0); }
+}
+
+.secaoprincipal{
+ background-color: white;
+ margin-top: 5%;
+
+}
+
+.imagem-com-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  margin: auto;
+}
+
+.imagem-com-texto img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.texto {
+  max-width: 500px;
+}
+
+.texto h2 {
+  margin-top: 0;
+  color: #f55350;
+}
+
+h1{
+  font-size: 50px;
+  text-shadow: #3f3f3f 3px 3px;
+}
+
+h2#paragrafo {
+   align-items: center;
+   margin-left: 40%;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+}
+
+span {
+    color: red;
+    font-weight: bolder;
+}
+
+
+/* RODAPÉ  */
+.footer {
+background-image: url(../img/fundo-tamp-coloridas.png);
+background-size: cover;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 20px 0;
+position: relative;
+bottom: 0;
+width: 100%;
+box-shadow: #333 0px 0px 10px;
+}
+
+.container-footer {
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#pegadaspet {
+width: 200%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.logo-footer {
+flex: 1;
+}
+
+.contato-footer {
+flex: 1;
+}
+
+button {
+background-color: #f55350;
+color: white;
+border: none;
+border-radius: 3px;
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #f55350;
+}
+
+.redes-sociais-footer {
+flex: 1;
+font-size: 1.2rem;
+font-weight: bold;
+margin-right: 2%;
+
+}
+
+.social-icons  {
+display: flex;
+align-items: center;
+margin-left: 15%;
+}
+
+#facebook, #instagram, .redes-sociais, .symbol {
+align-items: center;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { /* TABLETE */ 
+    /* GERAL  */
+    * { 
+    margin: 0;
+    padding: 0;
+    }
+
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
+    }
+
+    body::-webkit-scrollbar {
+    display: none;
+    }
+
+    body {
+    font-family: Averia Libre, sans-serif;
+    font-style: normal;
+    color: #333;
+    } 
+
+    /* MENU DE NAVEGAÇÃO  */
+    header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    white-space: nowrap;
+    flex-direction: column;
+    }
+
+    .logo img {
+    margin-left: 5%;
+    display:flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .menu {
+    display: none;
+    gap: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    box-shadow: #333 0px 0px 5px;
+    border-radius: 2px; 
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    left: 15%;
+    }
+
+    .menu li {
+    align-items: center;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    }
+
+    .menu li:hover {
+    color: #f55350;
+    }
+
+    span#burguer {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #000;
+    justify-content: center;
+    }
+
+    span#burguer:hover {
+    color: #f55350;
+    }
+
+    .gap {
+    display: none;
+    margin-right: 1%;
+    }
+
+    .navbar-nav {
+    padding: 0;
+    align-items: center;
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    /* RODAPÉ  */
+    .footer { 
+    background-image: url(../img/fundo-tamp-coloridas.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: #333 0px 0px 10px;
+    }
+
+    .container-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    #pegadaspet {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+    .logo-footer img {
+    width: 80%;
+    }
+
+    .contato-footer {
+    flex: 1;
+    padding: 10px 10px;
+    }
+
+    .descricao-seja-parceiro {
+    font-size: 0.9rem;
+    }
+
+    button {
+    background-color: #f55350;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #f55350;
+    }
+
+    .redes-sociais-footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 2%;
+    }
+
+    .descricao-redes-sociais {
+    white-space: nowrap; 
+    font-weight: bold;
+    }
+
+    div.social-icons  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    }
+
+    .redes-sociais {
+    display: none;
+    }
+
+    #facebook, #instagram, .redes-sociais, .symbol {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+}  
+
+@media (max-width: 767px) { /* MOBILE */
+    /* GERAL */
+    * {
+    margin: 0;
+    padding: 0;
+    }
+
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
+    }
+
+    body::-webkit-scrollbar {
+    display: none;
+    }
+
+    body {
+    font-family: Averia Libre, sans-serif;
+    font-style: normal;
+    color: #333;
+    }
+
+    /* MENU DE NAVEGAÇÃO */
+    header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    flex-direction: column;
+    }
+
+    .logo img {
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    }
+
+    .menu {
+    display: none;
+    gap: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1.5%;
+    box-shadow: #333 0px 0px 5px;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    transition: all 0.3s ease;
+    z-index: 1000; 
+    background-color: white;
+    right: 2%;
+    }
+
+    .menu li {
+    margin-right: 2%;
+    }
+
+    .menu li:hover {
+    background-color: #f55350;
+    }
+
+    span#burguer {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: #000;
+    }
+
+    span#burguer:hover {
+    color: #f55350;
+    }
+
+    .gap {
+    display: none;
+    margin-right: 1%;
+    }
+
+    .navbar-nav {
+    padding: 0;
+    align-items: center;
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    /* CONTEUDO */
+    section.titulo1 {
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/fundo\ tampinhas\ vermelhas.jpg);
+    background-size: cover;
+    color: white;
+    padding: 15px 10px;
+    }
+
+    #check{
+    width: 10%;
+    margin-right: 5%;
+    }
+
+    .carousel {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .carousel-track {
+    display: flex;
+    animation: slide 15s infinite ease-in-out;
+    }
+
+    .slide {
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+
+    .slide img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: #333 0 0 2px 0;
+    }
+
+    .caption {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    }
+
+    @keyframes slide {
+    0%, 20%   { transform: translateX(0); }
+    33.33%, 53.33% { transform: translateX(-100%); }
+    66.66%, 86.66% { transform: translateX(-200%); }
+    100%     { transform: translateX(0); }
+    }
+
+    .secaoprincipal{
+    background-color: white;
+    margin-top: 5%;
+    }
+
+    .imagem-com-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: column;
+    }
+
+    .imagem-com-texto img {
+    width: 80%;
+    border-radius: 10px;
+    }
+
+    .texto {
+    max-width: 500px;
+    }
+
+    .texto h2 {
+    margin-top: 0;
+    color: #f55350;
+    }
+
+    h1{
+    font-size: 1.8rem;
+    text-shadow: #3f3f3f 3px 3px;
+    }
+
+    #paragrafo {
+        font-size: 1rem;
+    }
+
+    h2#paragrafo {
+    text-align:  center;
+    margin-left: 10%;
+    font-size: 2rem;
+    }
+
+    h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    span {
+    color: red;
+    font-weight: bolder;
+    }
+
+    /* RODAPÉ  */
+    .footer {
+    background-image: url(../img/fundo-tamp-coloridas.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: #333 0px 0px 10px;
+    }
+
+    .container-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    #pegadaspet {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+    .logo-footer img {
+    width: 80%;
+    }
+
+    .contato-footer {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 10px 10px;
+    }
+
+    button {
+    background-color: #f55350;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #f55350;
+    }
+
+    h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    }
+
+    .descricao-seja-parceiro {
+    display: none;
+    }
+
+    .redes-sociais-footer {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .redes-sociais {
+    display: none;
+    }
+
+    #facebook {
+    margin-right: 10px;
+    }
+
+    .symbol {
+    display: none;
+    }
+
+    .descricao-redes-sociais {
+    display: none;
+    }
+
+    .form {
+    padding: 5px 10px;
+    font-size: small;
+    } 
+
+}

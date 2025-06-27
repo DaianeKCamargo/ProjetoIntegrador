@@ -1,0 +1,950 @@
+/* GERAL */
+* {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+overflow-x: hidden;
+width: 100%;
+}
+
+body::-webkit-scrollbar {
+display: none;
+}
+
+body {
+font-family: Averia Libre, sans-serif;
+font-style: normal;
+color: #333;
+}
+
+/* MENU DE NAVEGAÇÃO */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 1%;
+margin-right: 2%;
+white-space: nowrap;
+flex-direction: row;
+width: 100%;
+}
+
+.logo img {
+width: 60%;
+}
+
+.menu {
+gap: 2%;
+font-size: 1rem;
+font-weight: bold;
+color: #000;
+margin-top: 1.5%;
+justify-content: end;
+width: 80%;
+}
+
+.menu li {
+margin-right: 2%;
+}
+
+.menu li:hover {
+color: #E15485;
+}
+
+.gap {
+margin-right: 1%;
+}
+
+.navbar-nav {
+align-items: baseline;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+span#burguer {
+display: none;
+}
+
+/* TITULO + IMAGEM PRINCIPAL */
+.image-container {
+position: relative;
+text-align: center;
+}
+
+#img-cachorro {
+width: 100%;
+height: auto;
+}
+
+.titulo-imagem {
+font-size: 3rem;
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(255, 255, 255);
+padding: 10px;
+white-space: nowrap;
+}
+
+.frase-imagem {
+font-size: 1.5rem;
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(255, 255, 255);
+padding: 10px;
+white-space: nowrap;
+}
+
+/* DOAÇÃO */
+
+.section {
+padding: 5%;
+display: flex;
+}
+
+.cards {
+width: 50%;
+padding: 20px;
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cards h2 {
+font-size: 3rem;
+margin-bottom: 10px;
+}
+
+.cards #descricao-tampinhas {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+#img-tampinhas {
+display: flex;
+width: 100%;
+height: auto;
+}
+
+button {
+background-color: #E15485;
+color: white; 
+border: none;
+border-radius: 3px;
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #d13f6c;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+background-color: #f2f7fb;
+padding: 40px 20px;
+text-align: center;
+}
+
+.dashboard h2 {
+font-size: 3rem;
+margin-bottom: 10px;
+}
+
+.dashboard p {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.dashboard img {
+max-width: 100%;
+height: auto;
+}
+
+.dados {
+display: flex;
+gap: 20px;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+/* PONTO DE COLETA */
+.ponto-de-coleta {
+padding: 5%;
+display: flex;
+}
+
+#img-mapa {
+width: 100%;
+height: auto;
+}
+
+.cards-coleta {
+width: 50%;
+padding: 20px;
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+#distance {
+display: none;
+}
+
+.cards-coleta h2 {
+font-size: 3rem;
+margin-bottom: 10px;
+}
+
+.cards-coleta #descricao-mapa {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+button {
+background-color: #E15485;
+color: white;
+border: none;
+border-radius: 3px;
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #d13f6c;
+}
+
+/* RODAPÉ  */
+.footer {
+background-image: url(../img/fundo-tamp-coloridas.png);
+background-size: cover;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 20px 0;
+position: relative;
+bottom: 0;
+width: 100%;
+box-shadow: #333 0px 0px 10px;
+}
+
+.container-footer {
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#pegadaspet {
+width: 200%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.logo-footer {
+flex: 1;
+}
+
+.contato-footer {
+flex: 1;
+}
+
+.redes-sociais-footer {
+flex: 1;
+font-size: 1.2rem;
+font-weight: bold;
+margin-right: 2%;
+
+}
+
+.social-icons  {
+display: flex;
+align-items: center;
+margin-left: 15%;
+}
+
+#facebook, #instagram, .redes-sociais, .symbol {
+align-items: center;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) { /* TABLETE */ 
+    /* GERAL  */
+    * { 
+    margin: 0;
+    padding: 0;
+    }
+
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
+    }
+
+    body::-webkit-scrollbar {
+    display: none;
+    }
+
+    body {
+    font-family: Averia Libre, sans-serif;
+    font-style: normal;
+    color: #333;
+    } 
+
+    /* MENU DE NAVEGAÇÃO  */
+    header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    white-space: nowrap;
+    flex-direction: column;
+    }
+
+    .logo img {
+    margin-left: 5%;
+    display:flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .menu {
+    display: none;
+    gap: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    box-shadow: #333 0px 0px 5px;
+    border-radius: 2px; 
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    left: 15%;
+    }
+
+    .menu li {
+    align-items: center;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    }
+
+    .menu li:hover {
+    color: #E15485;
+    }
+
+    span#burguer {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #000;
+    justify-content: center;
+    }
+
+    span#burguer:hover {
+    color: #E15485;
+    }
+
+    .gap {
+    display: none;
+    margin-right: 1%;
+    }
+
+    .navbar-nav {
+    padding: 0;
+    align-items: center;
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    /* TITULO + IMAGEM PRINCIPAL */
+    .image-container { 
+    position: relative;
+    text-align: center;
+    }
+
+    #img-cachorro {
+    width: 100%;
+    height: auto;
+    }
+
+    .titulo-imagem {
+    font-size: 2rem;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 10px; 
+    white-space: nowrap;
+
+    }
+
+    .frase-imagem {
+    font-size: 1rem;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255); 
+    padding: 10px; 
+    white-space: nowrap; 
+    }
+
+    /* DOAÇÃO */
+    .section { 
+    padding: 5%;
+    display: flex;
+    }
+
+    .cards {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .cards h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+
+    .cards #descricao-tampinhas {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    }
+
+    #img-tampinhas {
+    width: 100%;
+    height: auto;
+    }
+
+    button {
+    background-color: #E15485;
+    color: white; 
+    border: none; 
+    border-radius: 3px;
+    padding: 5px 10px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    }
+
+    button:hover {
+    background-color: #d13f6c; 
+    } 
+
+    /* DASHBOARD  */
+    .dashboard { 
+    background-color: #f2f7fb;
+    padding: 40px 20px;
+    text-align: center;
+    }
+
+    .dashboard h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+
+    .dashboard p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    }
+
+    .dashboard img {
+    width: 40%;
+    height: auto;
+    }
+
+    .dados {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    } */
+
+    /* PONTO DE COLETA */
+    .ponto-de-coleta { 
+    padding: 5%;
+    display: flex;
+    }
+
+    #img-mapa {
+    width: 100%;
+    height: auto;
+    }
+
+    .cards-coleta {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .cards-coleta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+
+    #distance {
+    display: none;
+    }
+
+    button {
+    background-color: #E15485;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    } 
+
+    button:hover {
+    background-color: #d13f6c;
+    }
+
+    /* RODAPÉ  */
+    .footer { 
+    background-image: url(../img/fundo-tamp-coloridas.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: #333 0px 0px 10px;
+    }
+
+    .container-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    #pegadaspet {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+    .logo-footer img {
+    width: 80%;
+    }
+
+    .contato-footer {
+    flex: 1;
+    padding: 10px 10px;
+    }
+
+    .descricao-seja-parceiro {
+    font-size: 0.9rem;
+    }
+
+    .redes-sociais-footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 2%;
+    }
+
+    .descricao-redes-sociais {
+    white-space: nowrap; 
+    font-weight: bold;
+    }
+
+    div.social-icons  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    }
+
+    .redes-sociais {
+    display: none;
+    }
+
+    #facebook, #instagram, .redes-sociais, .symbol {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+}   
+
+@media (max-width: 767px){ /* MOBILE */
+    /* GERAL */
+    * {
+    margin: 0;
+    padding: 0;
+    }
+
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
+    }
+
+    body::-webkit-scrollbar {
+    display: none;
+    }
+
+    body {
+    font-family: Averia Libre, sans-serif;
+    font-style: normal;
+    color: #333;
+    }
+
+    /* MENU DE NAVEGAÇÃO */
+    header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 2%;
+    flex-direction: column;
+    }
+
+    .logo img {
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    }
+
+    .menu {
+    display: none;
+    gap: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1.5%;
+    box-shadow: #333 0px 0px 5px;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    transition: all 0.3s ease;
+    z-index: 1000; 
+    background-color: white;
+    right: 2%;
+    }
+
+    .menu li {
+    margin-right: 2%;
+    }
+
+    .menu li:hover {
+    background-color: #E15485;
+    }
+
+    span#burguer {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: #000;
+    }
+
+    span#burguer:hover {
+    color: #E15485;
+    }
+
+    .gap {
+    display: none;
+    margin-right: 1%;
+    }
+
+    .navbar-nav {
+    padding: 0;
+    align-items: center;
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    /* TITULO + IMAGEM PRINCIPAL */
+    .image-container {
+    position: relative;
+    text-align: center;
+    }
+
+    #img-cachorro {
+    width: 100%;
+    height: auto;
+    }
+
+    .titulo-imagem {
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    }
+
+    .frase-imagem {
+    font-size: 0.5rem;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    }
+
+    /* DOAÇÃO */
+    .section {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .cards {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .cards h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+    .cards #descricao-tampinhas {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    }
+
+    #img-tampinhas {
+    display: none;
+    width: 100%;
+    height: auto;
+    }
+
+    button {
+    background-color: #E15485;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: small;
+    }
+
+    button:hover {
+    background-color: #d13f6c;
+    } 
+
+    /* DASHBOARD */
+    .dashboard {
+    background-color: #f2f7fb;
+    text-align: center;
+    box-shadow: #333 0px 0px 1px;
+    padding: 10px 5px;
+    }
+
+    .dashboard h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+    .dashboard p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    }
+
+    .dashboard img {
+    max-width: 50%;
+    height: auto;
+    }
+
+    .dados {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .ver-detalhes {
+    padding: 10px 10px;
+    }
+
+
+    /* PONTO DE COLETA */
+    .ponto-de-coleta {
+    padding: 5%;
+    display: flex;
+    }
+
+    #img-mapa {
+    display: none;
+    width: 100%;
+    height: auto;
+    }
+
+    #distance {
+    width: 10%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px; 
+    color: black;  
+    }
+
+    .cards-coleta {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .cards-coleta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    }
+
+    button {
+    background-color: #E15485;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer; 
+    }
+
+    button:hover {
+    background-color: #d13f6c;
+    }
+
+    /* RODAPÉ  */
+    .footer {
+    background-image: url(../img/fundo-tamp-coloridas.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: #333 0px 0px 10px;
+    }
+
+    .container-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    #pegadaspet {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+    .logo-footer img {
+    width: 80%;
+    }
+
+    .contato-footer {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 10px 10px;
+    }
+
+    h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    }
+
+    .descricao-seja-parceiro {
+    display: none;
+    }
+
+    .redes-sociais-footer {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .redes-sociais {
+    display: none;
+    }
+
+    #facebook {
+    margin-right: 10px;
+    }
+
+    .symbol {
+    display: none;
+    }
+
+    .descricao-redes-sociais {
+    display: none;
+    }
+
+    .form {
+    padding: 5px 10px;
+    font-size: small;
+    } 
+
+}
+
