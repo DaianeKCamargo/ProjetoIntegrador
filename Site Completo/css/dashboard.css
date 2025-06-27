@@ -1,4 +1,4 @@
-GERAL
+/* GERAL */
 * {
 margin: 0;
 padding: 0;
@@ -94,6 +94,7 @@ width: 96%;
 height: auto;
 }
 
+/* QUANTIDADE DE TAMPINHAS MENSAL */
 .selecao-mes {
 padding: 10px 20px;
 }
@@ -105,7 +106,7 @@ font-size: 1.5vw;
 }
 
 .descricao-qnt {
-    margin-right: 6%;
+margin-right: 6%;
 }
 
 .qnt-animais, .qnt-tampinhas {
@@ -161,6 +162,95 @@ margin-left: 15%;
 background-color: rgba(226, 198, 188, 0.96);
 width: 40%;
 }
+
+/* CO2 */
+.selecao-ano{
+padding: 10px 15px;
+}
+
+.nome-selecione-co2 {
+padding: 7px 10px;
+text-align: right;
+font-size: 1.5vw;
+margin-right: 5%;
+}
+
+.selecao-ano-co2 {
+    margin-right: 10%;
+}
+
+.titulo-grafico h2 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#grafico-co2 {
+    width: 90%;
+    box-shadow: #333 0px 0px 2px 0px ;
+    padding: 15px 15px;
+    margin-left: 5%;
+}
+
+.soma-anual-co2 {
+border: 1px solid black;
+box-shadow: #333 3px 3px;
+border-radius: 10px;
+padding: 0;
+margin: 2%;
+background-color: #e1a611;
+width: 20%;
+}
+
+.titulo-soma {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.descricao-soma {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.unidade-medida {
+    font-size: 1vw;
+    text-align: right;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.equivalencia {
+    font-size: 2vw;
+    text-align: center;
+}
+
+/* QUANTIDADE DE TAMPINHAS ANUAL */
+.soma-anual-tamp {
+border: 1px solid black;
+box-shadow: #333 3px 3px;
+border-radius: 10px;
+margin-bottom: 3%;
+margin-left: 5%;
+margin-top: 10%;
+background-color: #8ff0e1;
+width: 20%;
+height: 50%;
+}
+
+.titulo-grafico-qnt h2 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#grafico-tamp {
+    width: 90%;
+    box-shadow: #333 0px 0px 2px 0px ;
+    padding: 15px 15px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+
 
 /* RODAPÉ  */
 .footer {
