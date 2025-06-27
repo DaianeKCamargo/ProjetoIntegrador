@@ -82,6 +82,18 @@ text-shadow: #333 3px 3px;
 margin-bottom: 5%;
 }
 
+/* CONTEUDO */
+.apresentacao-co2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.consequencia-tamp {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
 /* RODAPÉ  */
 .footer {
 background-image: url(../img/fundo-tamp-coloridas.png);
