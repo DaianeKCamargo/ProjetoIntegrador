@@ -1,7 +1,7 @@
 PROJETO INTEGRADOR - FATEC 
 
 
-O que é um projeto integrado ?
+O que é um projeto integrador ?
 
   É um projeto avaliador do aluno na FATEC no curso de DESENVOLVIMENTO DE SOFTWARE MULTIPLATAFORMA, onde mostramos todos os conhecimentos adquiridos durante o 
   semestre.
